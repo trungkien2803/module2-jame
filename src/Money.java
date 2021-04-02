@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
 public class Money {
-    public Money() {
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhập mệnh giá vnđ");
