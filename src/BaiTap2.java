@@ -41,7 +41,7 @@ public class BaiTap2 {
                 case 3: {
                     System.out.println("Nhập số cần kiểm tra");
                     number = sc.nextInt();
-                    double check = Math.sqrt(number);
+                    double check = Math.floor(Math.sqrt(number));
                     if (check * check == number){
                         System.out.println("Đây là số chính phương");
                     } else {
