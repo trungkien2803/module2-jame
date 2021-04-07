@@ -14,14 +14,6 @@ public class StopWatch {
         this.endTime = endTime;
     }
 
-    public LocalTime getStartTime() {
-        return startTime;
-    }
-
-    public LocalTime getEndTime() {
-        return endTime;
-    }
-
     public void start(){
         startTime=LocalTime.now();
     }
