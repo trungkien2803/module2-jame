@@ -120,7 +120,7 @@ public class Student {
         }
         System.out.println("Sinh viên có điểm cao nhất là");
 
-        System.out.printf("%-15s", students[index]);
+        System.out.printf("%-15s%-25s%-15s%-15s\n", students[index].getId(),students[index].getName(),students[index].getBirthDate(),students[index].getMark());
 
     }
     static void sort(Student students[]){
